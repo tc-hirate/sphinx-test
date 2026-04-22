@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="ja" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>環境構築 #1：Miniconda &#8212; Sphinx-Test 1.0 ドキュメント</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=4f649999" />
+    <link rel="stylesheet" type="text/css" href="../_static/alabaster.css?v=cb25574f" />
+    <script src="../_static/documentation_options.js?v=6bbe880f"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/translations.js?v=4dbe4bdc"></script>
+    <script>window.MathJax = {"chtml": {"displayAlign": "left", "displayIndent": "2em"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="検索" href="../search.html" />
+    <link rel="prev" title="Sphinx" href="../chapter2/chapter2.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="miniconda">
+<h1>環境構築 #1：Miniconda<a class="headerlink" href="#miniconda" title="Link to this heading">¶</a></h1>
+<section id="id1">
+<h2>環境の説明<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h2>
+<p>次の手順で Windows 11 上に Sphinx の環境を構築します。 Windows 10 でも同様の手順で環境構築が可能です。</p>
+<ol class="arabic simple">
+<li><p>Miniconda をインストール</p></li>
+<li><p>Sphinx をインストール</p></li>
+<li><p>VS Code をインストール</p></li>
+<li><p>GitHub を設定</p></li>
+</ol>
+</section>
+<section id="id2">
+<h2>Miniconda<a class="headerlink" href="#id2" title="Link to this heading">¶</a></h2>
+<section id="id3">
+<h3>インストール<a class="headerlink" href="#id3" title="Link to this heading">¶</a></h3>
+<p>Windows 上に Miniconda をインストールし、Python 環境を構築します。
+インストールはデフォルトのまま進めています。</p>
+<ol class="arabic simple">
+<li><p>Miniconda のサイトを開く</p></li>
+<li><p>Latest Miniconda Installer Links 内の &quot;Miniconda3 Windows 64-bit&quot; をクリックし、インストーラーをダウンロード</p></li>
+<li><p>ダウンロードした &quot;Miniconda3-latest-Windows-x86_64.exe&quot; ファイルを実行</p></li>
+</ol>
+</section>
+</section>
+<section id="latex">
+<h2>LaTeX<a class="headerlink" href="#latex" title="Link to this heading">¶</a></h2>
+<section id="id4">
+<h3>超幾何分布<a class="headerlink" href="#id4" title="Link to this heading">¶</a></h3>
+<p>M個の赤玉、N-M個の白玉（合計N個）から非復元抽出でn個取り出す。
+取り出される赤玉の個数をX個とすると、Xは超幾何関数HG(N, M, n)に従う。</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{align}
+  &amp;P(X=x) = \frac{{}_M \mathrm{C}_x \times {}_{N-M} \mathrm{C}_{n-x}}{{}_N \mathrm{C}_n} \\
+  &amp;E[X] = n \cdot \frac{M}{N} \\
+  &amp;V[X] = n \cdot \frac{M}{N} \cdot \left( 1 - \frac{M}{N} \right) \cdot \frac{N-n}{N-1}
+\end{align}\end{split}\]</div>
+</section>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">Sphinx-Test</a></h1>
+
+
+
+
+
+
+
+
+<h3>ナビゲーション</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="../chapter2/chapter2.html" title="前の章へ">Sphinx</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">クイック検索</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="検索" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2026, tc-hirate.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 7.2.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/chapter3/chapter3.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

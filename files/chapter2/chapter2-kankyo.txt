@@ -1,0 +1,6 @@
+********
+動作環境
+********
+Sphinx は Python で動作するツールです。
+Linux は Python がインストールされていることが多いので、その場合はすぐに Sphinx をインストール・使用できます。
+Windows は Python がインストールされていないので、まず Minicondaなどで Python の環境を作成し、次に Sphinx をインストールします。

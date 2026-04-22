@@ -26,3 +26,12 @@ language = 'ja'
 
 html_theme = 'alabaster'
 html_static_path = ['_static']
+
+
+
+# LaTeX
+# Source - https://stackoverflow.com/a/70351160
+# Posted by mzjn
+# Retrieved 2026-04-22, License - CC BY-SA 4.0
+
+mathjax3_config = {'chtml': {'displayAlign': 'left', 'displayIndent': '2em'}}
